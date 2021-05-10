@@ -1,0 +1,7 @@
+const CATEGORY_TYPE = {
+  FESTIVAL: "FESTIVAL",
+  BUSINESS: "BUSINESS",
+  MISC: "MISC"
+};
+
+module.exports = { CATEGORY_TYPE };
