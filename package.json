@@ -1,5 +1,5 @@
 {
-  "name": "Social-Media-Business-Post",
+  "name": "Brand-Poster",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -20,8 +20,6 @@
     "cors": "^2.8.5",
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
-    "heroku": "^7.53.1",
-    "heroku-cli": "^7.0.9",
     "jsonwebtoken": "^8.5.1",
     "lodash": "^4.17.21",
     "logger": "^0.0.1",
