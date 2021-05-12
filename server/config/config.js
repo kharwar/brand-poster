@@ -7,11 +7,11 @@ module.exports = {
     dialect: "postgres",
   },
   test: {
-    username: "root",
-    password: null,
-    database: "dev-smbp",
-    host: "127.0.0.1",
-    dialect: "postgres",
+    host: "ec2-54-163-254-204.compute-1.amazonaws.com",
+    database: "d2m84ivtstpkum",
+    username: "llrhegxqoadzls",
+    password: "2e390caeec80834f489fb9a129cef378b4ee69fd81dbd30b96c78f453a011aff",
+    port: "5432"
   },
   production: {
     username: "root",
