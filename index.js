@@ -1,9 +1,11 @@
 const express = require("express");
 require("dotenv").config();
 const app = express();
+const cors = require('cors');
 const bodyParser = require("body-parser");
 const port = process.env.PORT;
 app.use(bodyParser.json());
+app.use(cors());
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(express.static('./public'));
 const http = require("http");
